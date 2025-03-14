@@ -70,7 +70,6 @@ main .first-box button {
 
 main .second-box {
   text-align: left;
-  margin-top: 50px;
   display: inline-block;
   width: 100%;
   position: relative;
@@ -149,7 +148,7 @@ main .fourth-box {
 
 main .fourth-box img {
   width: 100%;
-  height: 10em;
+  height: 20em;
   padding-bottom: 20px;
   object-fit: cover;
 }
@@ -175,7 +174,7 @@ main .fourth-box div {
   margin-bottom: 50px;
   display: inline-block;
   vertical-align: top;
-  height: 20em;
+  height: 30em;
   margin-right: 2em;
 }
 
@@ -201,9 +200,18 @@ footer h2 {
   padding-top: 35px;
 }
 
-footer div {
+footer .centre {
+  position: relative;
+  height: 10rem;
+}
+
+footer .centre div {
   padding-bottom: 25px;
   text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer p:nth-child(4) {
